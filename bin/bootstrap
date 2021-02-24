@@ -1,0 +1,6 @@
+#!/bin/bash
+
+echo "Update packages and then install make & ansible"
+
+sudo apt update
+sudo apt-get install make ansible

@@ -1,0 +1,14 @@
+---
+
+- hosts: 127.0.0.1
+  connection: local
+  roles:
+    - role: common
+      # For java / scala / spark development 
+    - role: comcast.sdkman
+      sdkman_update: true
+      sdkman_install_packages:
+        - { candidate: maven, version: 3.5.0 }
+        - { candidate: sbt }
+        - { candidate: spark, version: 3.0.1 }
+

@@ -1,0 +1,14 @@
+---
+
+- name: install common dev tools & packages
+  become: true
+  apt:
+    pkg:    
+      - curl
+      - git
+      - openjdk-11-jre-headless
+      - tig
+      - tree
+      - unzip
+      - zip
+
