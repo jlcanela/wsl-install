@@ -4,6 +4,7 @@
   become: true
   apt:
     pkg:    
+      - awscli
       - curl
       - git
       - openjdk-11-jre-headless
