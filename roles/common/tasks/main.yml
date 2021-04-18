@@ -5,11 +5,35 @@
   apt:
     pkg:    
       - awscli
+      - build-essential
       - curl
+      - dos2unix
       - git
+      - llvm
       - openjdk-11-jre-headless
       - tig
       - tree
       - unzip
+      - wget
       - zip
-
+      - libssl-dev 
+      - zlib1g-dev 
+      - libbz2-dev
+      - libreadline-dev
+      - libsqlite3-dev
+      - libncurses5-dev
+      - libncursesw5-dev
+      - xz-utils
+      - tk-dev
+      - libffi-dev
+      - liblzma-dev
+      - python-openssl
+      - git
+      - httperf
+      - apache2-utils
+      - tmuxinator
+#      - wrk
+#      - chromium-browser
+#- pip:
+#    name: awslocal
+#    virtualenv: 3.8.5/envs/aws-tools
