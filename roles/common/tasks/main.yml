@@ -10,7 +10,7 @@
       - dos2unix
       - git
       - llvm
-      - openjdk-11-jre-headless
+      - openjdk-11-jre
       - tig
       - tree
       - unzip
