@@ -9,6 +9,7 @@
       - curl
       - dos2unix
       - git
+      - git-flow
       - llvm
       - openjdk-11-jre
       - tig
